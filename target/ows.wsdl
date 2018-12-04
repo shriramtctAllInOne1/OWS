@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns="http://sparta.com" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://sparta.com">
+    <wsdl:types>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://sparta.com">
+            <xs:element name="SearchOperationSingleSelection2ForGrid">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="input" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="SearchOperationSingleSelection2ForGridResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="SearchOperationSingleSelection3ForGrid">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="input" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="SearchOperationSingleSelection3ForGridResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="SearchOperationSingleSelection1ForGrid">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="input" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="SearchOperationSingleSelection1ForGridResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="dataTimeInput">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="input" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="dataTimeInputResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="SearchOrPopulateOperation2">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="input" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="SearchOrPopulateOperation2Response">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="SearchOperationSingleSelection2">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="input" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="SearchOperationSingleSelection2Response">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="SearchOperationSingleSelection1">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="input" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="SearchOperationSingleSelection1Response">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="SearchOrPopulateOperation3">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="input" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="SearchOrPopulateOperation3Response">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="SearchOrPopulateOperation5">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="input" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="SearchOrPopulateOperation5Response">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="SearchOperationSingleSelection3">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="input" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="SearchOperationSingleSelection3Response">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="SearchOrPopulateOperation1">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="input" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="SearchOrPopulateOperation1Response">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="SearchOperationSingleSelection2ForGridRequest">
+        <wsdl:part name="parameters" element="ns:SearchOperationSingleSelection2ForGrid"/>
+    </wsdl:message>
+    <wsdl:message name="SearchOperationSingleSelection2ForGridResponse">
+        <wsdl:part name="parameters" element="ns:SearchOperationSingleSelection2ForGridResponse"/>
+    </wsdl:message>
+    <wsdl:message name="SearchOperationSingleSelection3ForGridRequest">
+        <wsdl:part name="parameters" element="ns:SearchOperationSingleSelection3ForGrid"/>
+    </wsdl:message>
+    <wsdl:message name="SearchOperationSingleSelection3ForGridResponse">
+        <wsdl:part name="parameters" element="ns:SearchOperationSingleSelection3ForGridResponse"/>
+    </wsdl:message>
+    <wsdl:message name="SearchOperationSingleSelection1ForGridRequest">
+        <wsdl:part name="parameters" element="ns:SearchOperationSingleSelection1ForGrid"/>
+    </wsdl:message>
+    <wsdl:message name="SearchOperationSingleSelection1ForGridResponse">
+        <wsdl:part name="parameters" element="ns:SearchOperationSingleSelection1ForGridResponse"/>
+    </wsdl:message>
+    <wsdl:message name="SearchOrPopulateOperation3Request">
+        <wsdl:part name="parameters" element="ns:SearchOrPopulateOperation3"/>
+    </wsdl:message>
+    <wsdl:message name="SearchOrPopulateOperation3Response">
+        <wsdl:part name="parameters" element="ns:SearchOrPopulateOperation3Response"/>
+    </wsdl:message>
+    <wsdl:message name="SearchOrPopulateOperation2Request">
+        <wsdl:part name="parameters" element="ns:SearchOrPopulateOperation2"/>
+    </wsdl:message>
+    <wsdl:message name="SearchOrPopulateOperation2Response">
+        <wsdl:part name="parameters" element="ns:SearchOrPopulateOperation2Response"/>
+    </wsdl:message>
+    <wsdl:message name="SearchOrPopulateOperation5Request">
+        <wsdl:part name="parameters" element="ns:SearchOrPopulateOperation5"/>
+    </wsdl:message>
+    <wsdl:message name="SearchOrPopulateOperation5Response">
+        <wsdl:part name="parameters" element="ns:SearchOrPopulateOperation5Response"/>
+    </wsdl:message>
+    <wsdl:message name="dataTimeInputRequest">
+        <wsdl:part name="parameters" element="ns:dataTimeInput"/>
+    </wsdl:message>
+    <wsdl:message name="dataTimeInputResponse">
+        <wsdl:part name="parameters" element="ns:dataTimeInputResponse"/>
+    </wsdl:message>
+    <wsdl:message name="SearchOperationSingleSelection3Request">
+        <wsdl:part name="parameters" element="ns:SearchOperationSingleSelection3"/>
+    </wsdl:message>
+    <wsdl:message name="SearchOperationSingleSelection3Response">
+        <wsdl:part name="parameters" element="ns:SearchOperationSingleSelection3Response"/>
+    </wsdl:message>
+    <wsdl:message name="SearchOperationSingleSelection2Request">
+        <wsdl:part name="parameters" element="ns:SearchOperationSingleSelection2"/>
+    </wsdl:message>
+    <wsdl:message name="SearchOperationSingleSelection2Response">
+        <wsdl:part name="parameters" element="ns:SearchOperationSingleSelection2Response"/>
+    </wsdl:message>
+    <wsdl:message name="SearchOrPopulateOperation1Request">
+        <wsdl:part name="parameters" element="ns:SearchOrPopulateOperation1"/>
+    </wsdl:message>
+    <wsdl:message name="SearchOrPopulateOperation1Response">
+        <wsdl:part name="parameters" element="ns:SearchOrPopulateOperation1Response"/>
+    </wsdl:message>
+    <wsdl:message name="SearchOperationSingleSelection1Request">
+        <wsdl:part name="parameters" element="ns:SearchOperationSingleSelection1"/>
+    </wsdl:message>
+    <wsdl:message name="SearchOperationSingleSelection1Response">
+        <wsdl:part name="parameters" element="ns:SearchOperationSingleSelection1Response"/>
+    </wsdl:message>
+    <wsdl:portType name="PopulateOpSSTW15362PR20065PortType">
+        <wsdl:operation name="SearchOperationSingleSelection2ForGrid">
+            <wsdl:input message="ns:SearchOperationSingleSelection2ForGridRequest" wsaw:Action="urn:SearchOperationSingleSelection2ForGrid"/>
+            <wsdl:output message="ns:SearchOperationSingleSelection2ForGridResponse" wsaw:Action="urn:SearchOperationSingleSelection2ForGridResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOperationSingleSelection3ForGrid">
+            <wsdl:input message="ns:SearchOperationSingleSelection3ForGridRequest" wsaw:Action="urn:SearchOperationSingleSelection3ForGrid"/>
+            <wsdl:output message="ns:SearchOperationSingleSelection3ForGridResponse" wsaw:Action="urn:SearchOperationSingleSelection3ForGridResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOperationSingleSelection1ForGrid">
+            <wsdl:input message="ns:SearchOperationSingleSelection1ForGridRequest" wsaw:Action="urn:SearchOperationSingleSelection1ForGrid"/>
+            <wsdl:output message="ns:SearchOperationSingleSelection1ForGridResponse" wsaw:Action="urn:SearchOperationSingleSelection1ForGridResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOrPopulateOperation3">
+            <wsdl:input message="ns:SearchOrPopulateOperation3Request" wsaw:Action="urn:SearchOrPopulateOperation3"/>
+            <wsdl:output message="ns:SearchOrPopulateOperation3Response" wsaw:Action="urn:SearchOrPopulateOperation3Response"/>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOrPopulateOperation2">
+            <wsdl:input message="ns:SearchOrPopulateOperation2Request" wsaw:Action="urn:SearchOrPopulateOperation2"/>
+            <wsdl:output message="ns:SearchOrPopulateOperation2Response" wsaw:Action="urn:SearchOrPopulateOperation2Response"/>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOrPopulateOperation5">
+            <wsdl:input message="ns:SearchOrPopulateOperation5Request" wsaw:Action="urn:SearchOrPopulateOperation5"/>
+            <wsdl:output message="ns:SearchOrPopulateOperation5Response" wsaw:Action="urn:SearchOrPopulateOperation5Response"/>
+        </wsdl:operation>
+        <wsdl:operation name="dataTimeInput">
+            <wsdl:input message="ns:dataTimeInputRequest" wsaw:Action="urn:dataTimeInput"/>
+            <wsdl:output message="ns:dataTimeInputResponse" wsaw:Action="urn:dataTimeInputResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOperationSingleSelection3">
+            <wsdl:input message="ns:SearchOperationSingleSelection3Request" wsaw:Action="urn:SearchOperationSingleSelection3"/>
+            <wsdl:output message="ns:SearchOperationSingleSelection3Response" wsaw:Action="urn:SearchOperationSingleSelection3Response"/>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOperationSingleSelection2">
+            <wsdl:input message="ns:SearchOperationSingleSelection2Request" wsaw:Action="urn:SearchOperationSingleSelection2"/>
+            <wsdl:output message="ns:SearchOperationSingleSelection2Response" wsaw:Action="urn:SearchOperationSingleSelection2Response"/>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOrPopulateOperation1">
+            <wsdl:input message="ns:SearchOrPopulateOperation1Request" wsaw:Action="urn:SearchOrPopulateOperation1"/>
+            <wsdl:output message="ns:SearchOrPopulateOperation1Response" wsaw:Action="urn:SearchOrPopulateOperation1Response"/>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOperationSingleSelection1">
+            <wsdl:input message="ns:SearchOperationSingleSelection1Request" wsaw:Action="urn:SearchOperationSingleSelection1"/>
+            <wsdl:output message="ns:SearchOperationSingleSelection1Response" wsaw:Action="urn:SearchOperationSingleSelection1Response"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="PopulateOpSSTW15362PR20065Soap11Binding" type="ns:PopulateOpSSTW15362PR20065PortType">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="SearchOperationSingleSelection2ForGrid">
+            <soap:operation soapAction="urn:SearchOperationSingleSelection2ForGrid" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOperationSingleSelection3ForGrid">
+            <soap:operation soapAction="urn:SearchOperationSingleSelection3ForGrid" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOperationSingleSelection1ForGrid">
+            <soap:operation soapAction="urn:SearchOperationSingleSelection1ForGrid" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOrPopulateOperation3">
+            <soap:operation soapAction="urn:SearchOrPopulateOperation3" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOrPopulateOperation2">
+            <soap:operation soapAction="urn:SearchOrPopulateOperation2" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOrPopulateOperation5">
+            <soap:operation soapAction="urn:SearchOrPopulateOperation5" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="dataTimeInput">
+            <soap:operation soapAction="urn:dataTimeInput" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOperationSingleSelection3">
+            <soap:operation soapAction="urn:SearchOperationSingleSelection3" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOperationSingleSelection2">
+            <soap:operation soapAction="urn:SearchOperationSingleSelection2" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOrPopulateOperation1">
+            <soap:operation soapAction="urn:SearchOrPopulateOperation1" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOperationSingleSelection1">
+            <soap:operation soapAction="urn:SearchOperationSingleSelection1" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="PopulateOpSSTW15362PR20065Soap12Binding" type="ns:PopulateOpSSTW15362PR20065PortType">
+        <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="SearchOperationSingleSelection2ForGrid">
+            <soap12:operation soapAction="urn:SearchOperationSingleSelection2ForGrid" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOperationSingleSelection3ForGrid">
+            <soap12:operation soapAction="urn:SearchOperationSingleSelection3ForGrid" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOperationSingleSelection1ForGrid">
+            <soap12:operation soapAction="urn:SearchOperationSingleSelection1ForGrid" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOrPopulateOperation3">
+            <soap12:operation soapAction="urn:SearchOrPopulateOperation3" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOrPopulateOperation2">
+            <soap12:operation soapAction="urn:SearchOrPopulateOperation2" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOrPopulateOperation5">
+            <soap12:operation soapAction="urn:SearchOrPopulateOperation5" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="dataTimeInput">
+            <soap12:operation soapAction="urn:dataTimeInput" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOperationSingleSelection3">
+            <soap12:operation soapAction="urn:SearchOperationSingleSelection3" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOperationSingleSelection2">
+            <soap12:operation soapAction="urn:SearchOperationSingleSelection2" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOrPopulateOperation1">
+            <soap12:operation soapAction="urn:SearchOrPopulateOperation1" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOperationSingleSelection1">
+            <soap12:operation soapAction="urn:SearchOperationSingleSelection1" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="PopulateOpSSTW15362PR20065HttpBinding" type="ns:PopulateOpSSTW15362PR20065PortType">
+        <http:binding verb="POST"/>
+        <wsdl:operation name="SearchOperationSingleSelection2ForGrid">
+            <http:operation location="PopulateOpSSTW15362PR20065/SearchOperationSingleSelection2ForGrid"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="SearchOperationSingleSelection2ForGrid"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="SearchOperationSingleSelection2ForGrid"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOperationSingleSelection3ForGrid">
+            <http:operation location="PopulateOpSSTW15362PR20065/SearchOperationSingleSelection3ForGrid"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="SearchOperationSingleSelection3ForGrid"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="SearchOperationSingleSelection3ForGrid"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOperationSingleSelection1ForGrid">
+            <http:operation location="PopulateOpSSTW15362PR20065/SearchOperationSingleSelection1ForGrid"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="SearchOperationSingleSelection1ForGrid"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="SearchOperationSingleSelection1ForGrid"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOrPopulateOperation3">
+            <http:operation location="PopulateOpSSTW15362PR20065/SearchOrPopulateOperation3"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="SearchOrPopulateOperation3"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="SearchOrPopulateOperation3"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOrPopulateOperation2">
+            <http:operation location="PopulateOpSSTW15362PR20065/SearchOrPopulateOperation2"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="SearchOrPopulateOperation2"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="SearchOrPopulateOperation2"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOrPopulateOperation5">
+            <http:operation location="PopulateOpSSTW15362PR20065/SearchOrPopulateOperation5"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="SearchOrPopulateOperation5"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="SearchOrPopulateOperation5"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="dataTimeInput">
+            <http:operation location="PopulateOpSSTW15362PR20065/dataTimeInput"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="dataTimeInput"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="dataTimeInput"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOperationSingleSelection3">
+            <http:operation location="PopulateOpSSTW15362PR20065/SearchOperationSingleSelection3"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="SearchOperationSingleSelection3"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="SearchOperationSingleSelection3"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOperationSingleSelection2">
+            <http:operation location="PopulateOpSSTW15362PR20065/SearchOperationSingleSelection2"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="SearchOperationSingleSelection2"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="SearchOperationSingleSelection2"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOrPopulateOperation1">
+            <http:operation location="PopulateOpSSTW15362PR20065/SearchOrPopulateOperation1"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="SearchOrPopulateOperation1"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="SearchOrPopulateOperation1"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="SearchOperationSingleSelection1">
+            <http:operation location="PopulateOpSSTW15362PR20065/SearchOperationSingleSelection1"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="SearchOperationSingleSelection1"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="SearchOperationSingleSelection1"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="PopulateOpSSTW15362PR20065">
+        <wsdl:port name="PopulateOpSSTW15362PR20065HttpSoap11Endpoint" binding="ns:PopulateOpSSTW15362PR20065Soap11Binding">
+            <soap:address location="http://localhost:8080/axis2/services/PopulateOpSSTW15362PR20065"/>
+        </wsdl:port>
+        <wsdl:port name="PopulateOpSSTW15362PR20065HttpSoap12Endpoint" binding="ns:PopulateOpSSTW15362PR20065Soap12Binding">
+            <soap12:address location="http://localhost:8080/axis2/services/PopulateOpSSTW15362PR20065"/>
+        </wsdl:port>
+        <wsdl:port name="PopulateOpSSTW15362PR20065HttpEndpoint" binding="ns:PopulateOpSSTW15362PR20065HttpBinding">
+            <http:address location="http://localhost:8080/axis2/services/PopulateOpSSTW15362PR20065"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

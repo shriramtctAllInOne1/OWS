@@ -1,0 +1,10 @@
+<serviceGroup>
+  <service name="PopulateOpSSTW15362PR20065" targetNamespace="http://webservice.ows/">
+    <description>JNLPGenerator service</description>
+    <schema schemaNamespace="http://webservice.ows/" />
+    <parameter name="ServiceClass" locked="false">com.sparta.PopulateOpSSTW15362PR20065</parameter>
+    <operation name="ping">
+      <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+    </operation>
+  </service>
+</serviceGroup>
