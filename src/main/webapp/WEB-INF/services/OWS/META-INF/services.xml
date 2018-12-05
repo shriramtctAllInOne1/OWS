@@ -1,8 +1,8 @@
 <serviceGroup>
-  <service name="PopulateOpSSTW15362PR20065" targetNamespace="http://webservice.ows/">
+  <service name="MavenAxis2WebService" targetNamespace="http://webservice.MavenAxis2WebService/">
     <description>JNLPGenerator service</description>
-    <schema schemaNamespace="http://webservice.ows/" />
-    <parameter name="ServiceClass" locked="false">com.sparta.PopulateOpSSTW15362PR20065</parameter>
+    <schema schemaNamespace="http://webservice.MavenAxis2WebService/" />
+    <parameter name="ServiceClass" locked="false">com.sparta.MavenAxis2WebService</parameter>
     <operation name="ping">
       <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
     </operation>

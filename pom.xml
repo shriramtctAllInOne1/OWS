@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.sparta</groupId>
-	<artifactId>OWS</artifactId>
+	<artifactId>MavenAxis2WS</artifactId>
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>OWS</name>
+	<name>MavenAxis2WS</name>
 	<url>http://maven.apache.org</url>
 
 
@@ -47,8 +47,8 @@
 					</execution>
 				</executions>
 				<configuration>
-					<className>com.sparta.PopulateOpSSTW15362PR20065</className>
-					<outputFileName>${project.build.directory}/ows.wsdl</outputFileName>
+					<className>com.sparta.MavenAxis2WebService</className>
+					<outputFileName>${project.build.directory}/MavenAxis2WebService.wsdl</outputFileName>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -58,7 +58,7 @@
 	<configuration>
 		<scanIntervalSeconds>10</scanIntervalSeconds>
 		<webApp>
-		     <contextPath>/OWS</contextPath>
+		     <contextPath>/MavenAxis2WS</contextPath>
 		</webApp>
 		<httpConnector>
           	     <port>8888</port>
